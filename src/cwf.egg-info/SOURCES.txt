@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/cwf/__init__.py
+src/cwf/backtest.py
+src/cwf/data.py
+src/cwf/models.py
+src/cwf/policy.py
+src/cwf/predict.py
+src/cwf.egg-info/PKG-INFO
+src/cwf.egg-info/SOURCES.txt
+src/cwf.egg-info/dependency_links.txt
+src/cwf.egg-info/requires.txt
+src/cwf.egg-info/top_level.txt
+tests/test_contract.py
+tests/test_smoke_cli.py

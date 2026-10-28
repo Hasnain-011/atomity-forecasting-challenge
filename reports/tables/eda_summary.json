@@ -1,0 +1,130 @@
+{
+  "cadence": {
+    "n_train_timestamps": 110,
+    "n_total_timestamps": 134,
+    "step_counts_seconds": {
+      "300": 109
+    },
+    "rows_per_ts_min_max": [
+      10000,
+      10000
+    ]
+  },
+  "quality": {
+    "rows": 1100000,
+    "duplicates": 0,
+    "invalid": 0,
+    "null_avg_cpu": 0,
+    "vms_in_train": 10000
+  },
+  "churn": {
+    "vms_present_at_every_ts": 10000,
+    "share_full_cohort": 1.0,
+    "arrivals_after_first_ts": 0,
+    "departures_before_last_ts": 0,
+    "vms_with_internal_gaps": 0
+  },
+  "metadata_at_cutoff": {
+    "created_before_first_ts": 0.0,
+    "created_within_train": 1.0,
+    "deleted_by_cutoff": 0.0
+  },
+  "cpu_distribution": {
+    "mean": 9.41408901953901,
+    "median": 5.119809152561594,
+    "p90": 19.691118594608653,
+    "p99": 87.40634736453234,
+    "share_below_5pct": 0.48929,
+    "share_above_80pct": 0.012720909090909092,
+    "skew": 3.732790701173383
+  },
+  "temporal": {
+    "mean_cpu_range": [
+      9.111633601754887,
+      9.912175173984915
+    ],
+    "mean_cpu_slope_per_step": -0.0010575725458539648,
+    "mean_cpu_diff_std": 0.15730611030311084,
+    "mean_cpu_acf_lag1_12_24": [
+      0.6620683329704643,
+      0.3274130394254216,
+      -0.019924543593769613
+    ],
+    "active_range": [
+      10000.0,
+      10000.0
+    ],
+    "active_diff_std": 0.0
+  },
+  "composition": {
+    "max_abs_composition_effect": 0.0,
+    "corr_full_vs_cohort": 1.0
+  },
+  "metadata_unmatched_rows": 0,
+  "peaks": {
+    "peak_threshold": 9.507673290365222,
+    "low_threshold": 9.288952109938585,
+    "peak_steps": [
+      5,
+      8,
+      9,
+      11,
+      13,
+      21,
+      41,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      77
+    ],
+    "low_steps": [
+      3,
+      4,
+      16,
+      28,
+      30,
+      31,
+      40,
+      43,
+      52,
+      75,
+      76,
+      78,
+      87,
+      88,
+      90,
+      91,
+      94,
+      97,
+      99,
+      100,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "top1pct_vm_share_of_cpu_mass": 0.09596431128357785,
+    "peak_vs_low_mean_gap": 0.4824338734612592
+  }
+}

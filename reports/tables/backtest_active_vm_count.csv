@@ -1,0 +1,7 @@
+model,mae,rmse,peak_mae,n,skill_vs_naive
+naive,0.0,0.0,0.0,96,
+mean_6,0.0,0.0,0.0,96,
+mean_12,0.0,0.0,0.0,96,
+drift_12,0.0,0.0,0.0,96,
+ses,0.0,0.0,0.0,96,
+holt_damped,0.0,0.0,0.0,96,
