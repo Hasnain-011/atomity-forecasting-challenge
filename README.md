@@ -63,3 +63,28 @@ The pipeline itself only needs `vm_cpu_readings.csv.gz`, so smaller smoke datase
     notebooks/      eda.py, eda.ipynb, make_ipynb.py
     scripts/        policy_report.py (error analysis + headroom simulation)
     reports/        final_report.md, figures/, tables/
+## Completed Results
+
+- **Forecast output:** `predictions.csv` in the project root.
+- **Forecast horizon:** Final two hours, comprising 24 five-minute intervals.
+- **Forecast targets:** `active_vm_count` and `aggregate_cpu_utilization`.
+- **Automated tests:** 9 passed.
+- **Selected models:** Naive forecasting for both targets.
+- **Data cleaning:** 1,340,000 rows processed; 0 duplicates and 0 invalid rows reported.
+- **Final analysis:** `reports/final_report.md`
+
+### Reproduce the Forecast
+
+```bash
+python -m cwf.predict --data challenge_data --output predictions.csv --report-dir reports/tables
+```
+
+### Screenshots
+
+<img width="605" height="377" alt="Screenshot 2026-10-28 230329" src="https://github.com/user-attachments/assets/56b4bdbb-435b-40f3-90e9-84c313423baf" />
+
+<img width="421" height="379" alt="Screenshot 2026-10-28 231527" src="https://github.com/user-attachments/assets/6de58ebe-c760-4a80-8452-e13b92cae73e" />
+
+<img width="762" height="493" alt="Screenshot 2026-10-27 101212" src="https://github.com/user-attachments/assets/2f888ce5-b3ed-446e-9c69-dd3cb27ee03c" />
+
+
