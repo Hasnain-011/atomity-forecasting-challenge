@@ -83,8 +83,13 @@ python -m cwf.predict --data challenge_data --output predictions.csv --report-di
 
 <img width="605" height="377" alt="Screenshot 2026-10-28 230329" src="https://github.com/user-attachments/assets/56b4bdbb-435b-40f3-90e9-84c313423baf" />
 
+
+
 <img width="421" height="379" alt="Screenshot 2026-10-28 231527" src="https://github.com/user-attachments/assets/6de58ebe-c760-4a80-8452-e13b92cae73e" />
 
-<img width="762" height="493" alt="Screenshot 2026-10-27 101212" src="https://github.com/user-attachments/assets/2f888ce5-b3ed-446e-9c69-dd3cb27ee03c" />
+
+
+<img width="503" height="224" alt="Screenshot 2026-10-28 231826" src="https://github.com/user-attachments/assets/577fdda3-0d43-4ffe-a97f-324d946c8bf4" />
+
 
 
